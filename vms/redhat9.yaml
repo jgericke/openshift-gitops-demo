@@ -15,7 +15,7 @@ metadata:
         }
       ]
   name: rhel9-gitops
-  namespace: openshift-cnv
+  namespace: vm-gitops-demo
   finalizers:
     - kubevirt.io/virtualMachineControllerFinalize
   labels:
