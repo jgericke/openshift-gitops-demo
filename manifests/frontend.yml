@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: quay-ntpc5.apps.cluster-ntpc5.ntpc5.sandbox470.opentlc.com/quayadmin/frontend:0.1
+          image: quay-ntpc5.apps.cluster-ntpc5.ntpc5.sandbox470.opentlc.com/quayadmin/frontend:0.3
           imagePullPolicy: Always
           env:
             - name: DATABASE_SERVICE_HOST
@@ -46,6 +46,9 @@ spec:
     name: frontend-service
   port:
     targetPort: 8080
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
 ---
 apiVersion: v1
 kind: Service
