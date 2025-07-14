@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: payment-processor
-          image: quay.io/skupper/patient-portal-payment-processor
+          image: quay-ntpc5.apps.cluster-ntpc5.ntpc5.sandbox470.opentlc.com/quayadmin/frontend:0.1
           ports:
             - containerPort: 8080
 ---

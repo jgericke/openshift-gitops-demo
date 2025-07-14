@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: quay.io/mfoster/frontend:latest
+          image: podman pull quay-ntpc5.apps.cluster-ntpc5.ntpc5.sandbox470.opentlc.com/quayadmin/frontend:0.1
           imagePullPolicy: Always
           env:
             - name: DATABASE_SERVICE_HOST

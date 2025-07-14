@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
         - name: database
-          image: quay.io/skupper/patient-portal-database
+          image: quay-ntpc5.apps.cluster-ntpc5.ntpc5.sandbox470.opentlc.com/quayadmin/patient-portal-database:0.1
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 5432
