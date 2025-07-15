@@ -25,7 +25,7 @@ const html = `
   <section>
     <div>
       <div class="header-container">
-        <h1><span class="material-icons-outlined">medical_services</span> Patient Portal v3.0</h1>
+        <h1><span class="material-icons-outlined">medical_services</span> Patient Portal v1.1</h1>
         <span class="version-number">v1</span>
       </div>
 

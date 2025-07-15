@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: quay-ntpc5.apps.cluster-ntpc5.ntpc5.sandbox470.opentlc.com/quayadmin/frontend:3.0
+          image: quay-ntpc5.apps.cluster-ntpc5.ntpc5.sandbox470.opentlc.com/quayadmin/frontend:1.0
           env:
             - name: DATABASE_SERVICE_HOST
               value: database
