@@ -24,7 +24,10 @@ const html = `
 <body class="excursion login">
   <section>
     <div>
-      <h1><span class="material-icons-outlined">medical_services</span> Patient Portal</h1>
+      <div class="header-container">
+        <h1><span class="material-icons-outlined">medical_services</span> Patient Portal</h1>
+        <span class="version-number">v1</span>
+      </div>
 
       <p>Patient Portal is an example application.  It uses a web
       frontend, a relational database, and a payment-processing
